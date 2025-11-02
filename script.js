@@ -4,7 +4,8 @@ $(document).ready(function() {
     let index = 0;
 
     const confettiColors = ['#FFD700', '#F472B6', '#81D4FA', '#B2DFDB', '#D1C4E9', '#FFFFFF'];
-    const textColors = ['#E91E63', '#9C27B0', '#2196F3', '#00BCD4', '#FFC107'];
+    
+    const textColors = ['#E91E63', '#9C27B0', '#2196F3', '#00BCD4','#FFC107'];
 
     function type() {
         if (index < loveMessage.length) {
@@ -53,10 +54,10 @@ $(document).ready(function() {
                 'border-radius': 0
             });
         } else {
-            confetti.css({
+             confetti.css({
                 'width': size + 'px',
                 'height': size + 'px',
-            });
+             });
         }
         
         confetti.css({
